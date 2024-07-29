@@ -1,0 +1,3 @@
+JPA
+
+es para que Spring se conecte a Hybernate, y via eso se conecte a la DB, que en este caso lo tenemos en MySql (Workbench)

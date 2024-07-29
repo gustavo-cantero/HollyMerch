@@ -1,0 +1,22 @@
+.avatar {
+    border        : 2px solid #000;
+    border-radius : 50%;
+    height        : 40px;
+    width         : 40px;
+    vertical-align: middle;
+    text-align    : center;
+    display       : flex;
+    align-items   : center;
+
+    >a {
+        margin: auto;
+
+        &::after {
+            display: none !important;
+        }
+    }
+}
+
+.cart {
+    margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+.container {
+    max-height: calc(100vh - 76px);
+    overflow  : hidden;
+
+    .row * {
+        max-height: calc(100vh - 76px);
+    }
+
+}
+
+.list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height    : calc(100vh - 76px);
+}
+
+.img {
+    width     : 100%;
+    height    : calc(100vh - 76px);
+    object-fit: cover;
+}

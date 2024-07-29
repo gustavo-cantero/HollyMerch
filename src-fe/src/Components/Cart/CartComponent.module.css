@@ -1,0 +1,27 @@
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* .card {
+    width: calc(50% - 20px);
+    margin: 20px;
+    height: fit-content;
+  } */
+  
+
+  .card {
+    background: rgba(255, 255, 255, 0.842);
+    border: 1px solid #ddddddb5;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .wrapper{
+    max-width: 800px;
+    margin: 20px auto 0;
+  }

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    height: 90vh;
+}
+
+.title {
+    padding-left: .5em
+}
+
+.form {
+    width: 20vw;
+    padding: 1.25em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh
+}
+
+.row {
+    min-width: 80%;
+}
+
+.formGroup {
+    margin-bottom: 1.5em;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    margin-top: 1em; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.card-title {
+    font-size: 1.5em; 
+    margin-bottom: 1em;
+}
